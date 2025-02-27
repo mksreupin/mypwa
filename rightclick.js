@@ -1,10 +1,6 @@
-<script language="JavaScript">
-<!--
-//Disable right mouse click Script
-//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
-//For full source code, visit http://www.dynamicdrive.com
+
 var message="Function Disabled!";
-///////////////////////////////////
+
 function clickIE4(){
 if (event.button==2){
 alert(message);
@@ -27,5 +23,3 @@ else if (document.all&&!document.getElementById){
 document.onmousedown=clickIE4;
 }
 document.oncontextmenu=new Function("alert(message);return false")
-// -->
-</script>
