@@ -1,16 +1,16 @@
 {
-  "name": "News Exproter",
-  "short_name": "News Exproter",
-  "start_url": "https://newsexporter.blogspot.com/",
+  "name": "Active Hindi News",
+  "short_name": "Active Hindi News",
+  "start_url": "https://activehindinews.blogspot.com/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FF0000",
   "orientation": "portrait",
-  "scope": "https://newsexporter.blogspot.com/",
-  "id": "newsexport",
+  "scope": "https://activehindinews.blogspot.com/",
+  "id": "ActiveHindiNews",
   "lang": "hi",
   "dir": "ltr",
-  "description": "News Exporter! No1 Hindi e-News Portal.",
+  "description": "Active Hindi News! No1 Hindi e-News Portal.",
   "categories": [
     "news"
   ],
