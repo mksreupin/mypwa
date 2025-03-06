@@ -718,10 +718,6 @@
     }
   ],
   "display_override": [
-    "window-controls-overlay",
-    "browser",
-    "fullscreen",
-    "minimal-ui",
     "standalone"
   ],
   "iarc_rating_id": "news",
