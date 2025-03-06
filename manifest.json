@@ -709,14 +709,13 @@
       "sizes": "750x1334",
       "type": "image/png"
     },
-	{
-     "src": "https://raw.githubusercontent.com/APMOBILESTORE/mypwa/refs/heads/main/pcscreenshot.jpg",
+    {
+      "src": "https://raw.githubusercontent.com/APMOBILESTORE/mypwa/refs/heads/main/pcscreenshot.jpg",
       "sizes": "640x320",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Wonder Widgets"
     }
-
   ],
   "display_override": [
     "window-controls-overlay",
@@ -725,5 +724,38 @@
     "minimal-ui",
     "standalone"
   ],
-  "iarc_rating_id": "news"
+  "iarc_rating_id": "news",
+  "shortcuts": [
+    {
+      "name": "About Us",
+	  "short_name": "About Us",
+      "url": "https://activehindinews.blogspot.com/p/about-us.html",
+      "description": "About Us",
+	  "icons": [{ "src": "https://raw.githubusercontent.com/APMOBILESTORE/mypwa/refs/heads/main/android/android-launchericon-192-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact Us",
+	  "short_name": "Contact Us",
+      "url": "https://activehindinews.blogspot.com/p/contact-us.html",
+      "description": "Contact Us",
+	  "icons": [{ "src": "https://raw.githubusercontent.com/APMOBILESTORE/mypwa/refs/heads/main/android/android-launchericon-192-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Policy Privacy",
+	  "short_name": "Policy Privacy",
+      "url": "https://activehindinews.blogspot.com/p/policy-privacy.html",
+      "description": "Policy Privacy",
+	  "icons": [{ "src": "https://raw.githubusercontent.com/APMOBILESTORE/mypwa/refs/heads/main/android/android-launchericon-192-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Terms Conditions",
+	  "short_name": "PTerms Conditions",
+      "url": "https://activehindinews.blogspot.com/p/terms-conditions.html",
+      "description": "Terms Conditions",
+	  "icons": [{ "src": "https://raw.githubusercontent.com/APMOBILESTORE/mypwa/refs/heads/main/android/android-launchericon-192-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
 }
